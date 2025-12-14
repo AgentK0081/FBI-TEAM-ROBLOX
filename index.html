@@ -178,11 +178,7 @@
           <div class="callsign">${m.callsign}</div>
           <div class="username">${m.username}</div>
           <div class="rank">${m.rank}</div>
-          <div class="threat ${m.threat}">Threat Level: ${m.threat}</div>
-          <div class="details">
-            <strong>Reason:</strong> ${m.reason}<br>
-            <strong>Details:</strong> ${m.details}
-          </div>
+          
         `;
         card.addEventListener('click', () => card.classList.toggle('open'));
         list.appendChild(card);
